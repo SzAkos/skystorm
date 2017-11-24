@@ -69,6 +69,9 @@ window._language_config = {
     "ui.format.highlightNewsTime": {
         "ALL": "DD.MM.YYYY HH:mm"
     },
+    "ui.format.daypassValidityDate": {
+        "ALL": "DD.MM.YYYY"
+    },
 
     //
     // These are good translations, but ones that have to be embedded in the UI rather than retrieved from server at runtime.
@@ -109,6 +112,10 @@ window._language_config = {
     "ui.global.abort": { // ui.global.abort not currently in use, but supplied under SST-120.
         "en": "Abort",
         "de": "Abbrechen"
+    },
+    "Binge.Binge_ContinueWatchingAlert_top_label_movie": {
+       "en": "Continue watching: [title] [fsk] | [partner_channel]",
+       "de": "Jetzt fortsetzen: [title] [fsk] | [partner_channel]"
     }
 
 };
